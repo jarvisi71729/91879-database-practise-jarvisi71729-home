@@ -50,14 +50,6 @@
        
         <div class="box banner">
             
-            <h1>Orchid Reading</h1>
+            <h1 style="font-size: 55px">Orchid Reading</h1>
 
         </div>    <!-- / banner -->
-
-        <div class="box nav">
-            <a href="index.php">Home</a> |
-            <a href="page1.php">Page 1</a> |
-            <a href="page2.php">Page 2</a> |
-            <a href="page3.php">Page 3</a> |
-            <a href="contact.php">Contact</a>
-        </div>    <!-- / nav -->

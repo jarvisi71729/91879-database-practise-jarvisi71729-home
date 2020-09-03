@@ -19,7 +19,7 @@ $genre = $_POST['genre'];
 ?>
         <div class="box main">
             
-            <h2>genre Search</h2>
+            <h2>Genre Search</h2>
             
             <?php
             

@@ -1,0 +1,6 @@
+<option value="Sci Fi">Science Fiction</option>
+                    <option value="Humour">Humour</option>
+                    <option value="Non Fiction">Non Fiction</option>
+                    <option value="Fiction">Fiction</option>
+                    <option value="Historical Fiction">Historical Fiction</option>
+                    <option value="Thriller">Thriller</option>

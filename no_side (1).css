@@ -14,7 +14,6 @@ body {
     grid-template-rows: auto;
     grid-template-areas:
         "logo banner banner"
-        "nav nav nav"
         "main main side"
         "footer footer footer";
     grid-gap: 4px;
@@ -89,6 +88,9 @@ h1, h2, h3, h4 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1 {
+    font-size: 550px;
+}
 /* Side Links */
 a.side{font-weight: bold; text-decoration: none;}
 a.side:link, a.side:visited {color: #d5f5f3} /* pale turqoise */

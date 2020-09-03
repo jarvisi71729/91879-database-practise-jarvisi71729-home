@@ -11,7 +11,7 @@ $title = $_POST['title'];
     $find_sql="SELECT *
         FROM `2020_L1_Prac_Review`
         WHERE `Title` LIKE '%$title%'
-        LIMIT 0 , 30";
+        ORDER BY `Title` ASC ";
     $find_query=mysqli_query($dbconnect, $find_sql);
     $find_rs=mysqli_fetch_assoc($find_query);
     $count=mysqli_num_rows($find_query);
