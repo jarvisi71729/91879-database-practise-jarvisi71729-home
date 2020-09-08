@@ -26,6 +26,7 @@ body {
 
 .box {
     padding: 20px;
+    border-radius: 10px;
 }
 
 /* Area colouring... */
@@ -47,12 +48,10 @@ body {
     height: 200px;
     width: 200px;
     background-image: url(Images/book_200.png);
-    border-top-left-radius: 50px;
 }
 
 .banner {
     grid-area: banner;
-    border-top-right-radius: 50px;
 }
 
 .nav {
@@ -77,8 +76,6 @@ body {
 
 .footer {
     grid-area: footer;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
     text-align: right;
 }
 
@@ -141,6 +138,8 @@ a:hover{color: #fff;}    /* white */
 
 .search {
     width: 200px;
+    padding: 8px 15px;
+    background: #fff
 }
 
 /* Error Box Formatting */
@@ -148,6 +147,45 @@ a:hover{color: #fff;}    /* white */
     background-color: #ffe0ed; /* pale pink */
     border: 2px solid #8a1737; /* dark red border */
     color: #8a1737; /* dark red */
-    border-radius: 10px;
-    padding: 10px;   
 }
+
+form {
+    width: 250px;
+    margin: 5px;
+}
+
+.submit {
+    font-family: FontAwesome;
+    position: relative;
+    width: 45px;
+    left: -1px;
+    background-color: #def2ec;
+    color: #000;       
+    border: 1px solid #def2ec;
+    border-radius: 0 5px 5px 0;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+}
+
+input {
+    height: 39px;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.half_width {
+    width: 99px;
+}
+
+select {
+    outline: 0;
+    height: 39px;
+    border: 1px solid #ccc;
+    color: #878787;
+    width: 200px;
+}
+
