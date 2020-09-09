@@ -68,8 +68,6 @@
                                                  
                     ?>
                     
-                    
-         
                 </select>
                 
                 <input class="submit" type="submit" name="find_genre" value="&#128269;" />
@@ -81,15 +79,15 @@
             <!-- Start of ratings form -->
             
             <form method="post" action="rating_search2.php" enctype="multipart/form-data">
-            
-                <h4>Rating...</h4>    
+
+                <b>Rating...</b>
+                
+                <br />
                 
                 <select class="half_width" name="amount">
-                    
                     <option value="exactly" selected>Exactly...</option>
                     <option value="more">At least...</option>
                     <option value="less">At most...</option>
-                    
                 </select>
                 
                 <select class="half_width" name="stars">
@@ -101,6 +99,7 @@
                 </select>
                 
                     <input type="submit" class="submit" name="find_rating" value="&#128269;" />            
+            
             </form>
     
             <!-- End of ratings form -->
